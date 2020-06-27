@@ -15,7 +15,6 @@
 #### Building a complex animated button
 
 - What pseudo-elements and pseudo-classes are.
-
 - How and why to use the [`::after`](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) pseudo-element;
-
 - How to create a creative hover animation using the [`transition`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) property.
+  <br /><br />
