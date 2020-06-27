@@ -9,6 +9,14 @@ Dark green: #28b485
 * {
   margin: 0;
   padding: 0;
+
+  /**
+   * MDN: border-box tells the browser to account for any border and padding in
+   * the values you specify for an element's width and height. If you set an
+   * element's width to 100 pixels, that 100 pixels will include any border or
+   * padding you added, and the content box will shrink to absorb that extra
+   * width. This typically makes it much easier to size elements.
+   */
   box-sizing: border-box;
 }
 
@@ -56,6 +64,7 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
+  backface-visibility: hidden;
 }
 
 .heading-primary-main {
@@ -63,6 +72,13 @@ body {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
+
+  animation-name: moveInFromLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+
+  /* animation-iteration-count: 3; */
+  /* animation-delay: 1s; */
 }
 
 .heading-primary-sub {
@@ -70,4 +86,38 @@ body {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 17.4px;
+
+  animation: moveInFromRight 1s ease-out;
+}
+
+@keyframes moveInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
