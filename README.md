@@ -105,10 +105,9 @@
 - The `inherit` keyword forces inheritance on a certain property.
 - The `initial` keyword resets a property to its initial value.
 
-### Converting a px to a rem – An effective workflow
-
-- How and why to use `rem` units.
-- A great workflow for converting `px` to `rem`.
+### [CSS Units](https://www.w3schools.com/cssref/css_units.asp)
+- Absolute Lengths vs Relative Lengths.
+- The `em` and `rem` units are practical in creating perfectly scalable layout.
 
 ### How CSS renders a website
 
@@ -194,3 +193,20 @@
      themes/
      abstracts/
      vendors/</code></pre>
+
+### What is Sass?
+- Sass is a CSS preprocessors; an extension of CSS that adds power and elegance to the basic language.
+- Sass source code gets compiled into CSS code.
+- Features:
+  - **Variables** for reusable values such as colors, font-size, spacing, etc.
+  - **Nesting** of selectors inside of one another, allowing us to write less code.
+  - **Operators** for mathematical operations right inside of CSS.
+  - **Partials and imports** to write CSS in different files and importing them all into one single file.
+  - **Mixins** to write reusable pieces of CSS code.
+  - **Functions** similar to mixins, but also produce a value that can be used later.
+  - **Extends** to make different selectors inherit declarations that are common to all of them.
+  - **Control directives** for writing complex code using conditionals and loops.
+
+### Sass syntax vs SCSS syntax
+- Sass syntax uses indentation instead of curly braces.
+- SCSS syntax is closer to CSS; uses curly braces.
