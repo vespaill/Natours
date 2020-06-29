@@ -246,4 +246,3 @@
     themes/
     abstracts/
     vendors/</code></pre>
-
