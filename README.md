@@ -1,12 +1,10 @@
-<style>
+# [Learning Advanced CSS & Sass: Flexbox, Grid, Animations, etc.](https://www.udemy.com/course/advanced-css-and-sass/)
+
+<h3><style>
   table td, table td * {
     vertical-align: top;
   }
-</style>
-
-# [Learning Advanced CSS & Sass: Flexbox, Grid, Animations, etc.](https://www.udemy.com/course/advanced-css-and-sass/)
-
-<h3><u>Building the header</u></h3>
+</style><u>Building the header</u></h3>
 
 - The best way to perform a basic reset using the universal selector.
 - How to set project-wide font definitions.
