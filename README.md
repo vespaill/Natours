@@ -1,5 +1,6 @@
 # [Learning Advanced CSS & Sass: Flexbox, Grid, Animations, etc.](https://www.udemy.com/course/advanced-css-and-sass/)
 
+## Table of Contents
 1. [Building a header](#Buildingaheader)
 1. [CSS animations](#CSSanimations)
 1. [Building a complex animated button](#Buildingacomplexanimatedbutton)
@@ -17,6 +18,8 @@
 1. [Basic responsive design principles](#Basicresponsivedesignprinciples)
 1. [Layout types](#Layouttypes)
 1. [Building a Custom Grid with Floats](#BuildingaCustomGridwithFloats)
+
+---
 
 ###  1. <a name='Buildingaheader'></a>Building the header
 - The best way to perform a basic reset using the universal selector.
@@ -228,6 +231,6 @@
 
 ###  17. <a name='BuildingaCustomGridwithFloats'></a>Building a Custom Grid with Floats
 - Architecting and building a simple grid system.
-- Using the attribute selector.
-- Using the `:not` pseudo-class.
-- Using `cacl()` instead Sass operations in order allows us to perform operations on different units.
+- Using the [attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
+- Using the [`:not`](https://developer.mozilla.org/en-US/docs/Web/CSS/:not) pseudo-class.
+- Using [`calc()`](https://developer.mozilla.org/en-US/docs/Web/CSS/calc) instead Sass operations to perform operations on different units.
