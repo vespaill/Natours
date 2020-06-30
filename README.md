@@ -1,28 +1,39 @@
 # [Learning Advanced CSS & Sass: Flexbox, Grid, Animations, etc.](https://www.udemy.com/course/advanced-css-and-sass/)
 
-### Building the header
+* [Building a header](#Buildingaheader)
+* [CSS animations](#CSSanimations)
+* [Building a complex animated button](#Buildingacomplexanimatedbutton)
+* [The 3 pillars to writing good HTML and CSS](#The3pillarstowritinggoodHTMLandCSS)
+* [The Cascade and Specificity](#TheCascadeandSpecificity)
+* [How CSS values are processed](#HowCSSvaluesareprocessed)
+* [Inheritance](#Inheritance)
+* [CSS Units](#CSSUnits)
+* [How CSS renders a website](#HowCSSrendersawebsite)
+* [Box Types](#BoxTypes)
+* [Positioning schemes](#Positioningschemes)
+* [The Think-Build-Architect Mindset](#TheThink-Build-ArchitectMindset)
+* [What is Sass?](#WhatisSass)
+* [Sass syntax vs SCSS syntax](#SasssyntaxvsSCSSsyntax)
+* [Basic responsive design principles](#Basicresponsivedesignprinciples)
+* [Layout types](#Layouttypes)
+* [Building a Custom Grid with Floats](#BuildingaCustomGridwithFloats)
 
+###  1. <a name='Buildingaheader'></a>Building the header
 - The best way to perform a basic reset using the universal selector.
-- How to set project-wide font definitions.
-- How to clip parts of elements using [`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path).
-  <br /><br />
+- Setting up project-wide font definitions.
+- Clipping parts of elements using [`clip-path`](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path).
 - The easiest way to center anything with the [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform), [`top`](https://developer.mozilla.org/en-US/docs/Web/CSS/top) and [`left`](https://developer.mozilla.org/en-US/docs/Web/CSS/left) properties.
 
-### CSS animations
+###  2. <a name='CSSanimations'></a>CSS animations
+- Creating CSS animations using [`@keyframes`](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) and the [`animation`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) property.
 
-- How to create CSS animations using [`@keyframes`](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) and the [`animation`](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) property.
-
-### Building a complex animated button
-
-- What pseudo-elements and pseudo-classes are.
-- How and why to use the [`::after`](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) pseudo-element;
-- How to create a creative hover animation using the [`transition`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) property.
+###  3. <a name='Buildingacomplexanimatedbutton'></a>Building a complex animated button
+- Using [pseudo-classes and pseudo-elements](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html#:~:text=A%20pseudo%2Delement%20is%20a,classes%20of%20elements%20using%20JavaScript.) such as [`::after`](https://developer.mozilla.org/en-US/docs/Web/CSS/::after).
+- Creating a hover animation using the [`transition`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) property.
   <br />
 
 ---
-
-### The 3 pillars to writing good HTML and CSS
-
+###  4. <a name='The3pillarstowritinggoodHTMLandCSS'></a>The 3 pillars to writing good HTML and CSS
 - **Responsive design**
   - Fluid layouts
   - Media queries
@@ -45,10 +56,8 @@
   - Use as few images as possible
   - Compress images
 
-### The Cascade and Specificity
-
+###  5. <a name='TheCascadeandSpecificity'></a>The Cascade and Specificity
 - **Cascade**: the process of combining different stylesheets and resolving conflicts between different CSS rules and declarations when more than one rule applies to a certain element.
-
 - To resolve conflicts between conflicting declarations, the Cascade first looks at the **importance (weight)**, then at the **selector specificity**, and lastly at the **source order**.
 
 <br>
@@ -84,8 +93,7 @@
 - Rely more on **specificity** than on the **order** of selectors.
 - But, rely on order when using 3rd-party stylesheets – always put your author stylesheet last.
 
-### How CSS values are processed
-
+###  6. <a name='HowCSSvaluesareprocessed'></a>How CSS values are processed
 - Each property has an initial value, used if nothing is declared (and if there is no inheritance).
 - Browsers specify a **root `font-size`** for each page (usually `16px`).
 - Percentages and relative values are always converted to pixels.
@@ -96,8 +104,7 @@
 - `rem` are always measured relative to the **document's root** `font-size`.
 - `vh` and `vw` are simply percentage measurements of the viewport's `height` and `width`.
 
-### Inheritance
-
+###  7. <a name='Inheritance'></a>Inheritance
 - Inheritance passes the values for some specific properties from parents to children – **more maintainable code**.
 - Properties related to text are inherited: `font-family`, `font-size`, `color`, etc. Other properties like `padding` and `margin` are not inherited.
 - The computed value of a property is what gets inherited, **not** the declared value.
@@ -105,12 +112,11 @@
 - The `inherit` keyword forces inheritance on a certain property.
 - The `initial` keyword resets a property to its initial value.
 
-### [CSS Units](https://www.w3schools.com/cssref/css_units.asp)
+###  8. <a name='CSSUnits'></a>[CSS Units](https://www.w3schools.com/cssref/css_units.asp)
 - Absolute Lengths vs Relative Lengths.
 - The `em` and `rem` units are practical in creating perfectly scalable layout.
 
-### How CSS renders a website
-
+###  9. <a name='HowCSSrendersawebsite'></a>How CSS renders a website
 - **The Visual Formatting Model**: an algorithm that calculates boxes and determines the layout of these boxes, for each element in the render tree, in order to determine the final layout of the page. It takes into account:
   - **Dimensions of boxes**: the box model.
   - **Box type**: inline, block, and inline-block.
@@ -125,8 +131,7 @@
   - **Margin**: space between boxes.
   - **Fill area**: area that gets filled with background color or background image.
 
-### Box Types
-
+###  10. <a name='BoxTypes'></a>Box Types
 - **Block-level boxes**
   - Elements formatted visually as blocks
   - 100% of parent's width
@@ -150,8 +155,7 @@
   - Paddings and margins only horizontal<br>
     `display: inline`
 
-### Positioning schemes
-
+###  11. <a name='Positioningschemes'></a>Positioning schemes
 - **Normal flow**
   - Default positioning scheme
   - **NOT** floated
@@ -171,8 +175,7 @@
     <pre><code>position: absolute
     position: fixed</code></pre>
 
-### The Think-Build-Architect Mindset
-
+###  12. <a name='TheThink-Build-ArchitectMindset'></a>The Think-Build-Architect Mindset
 1. **Think** about the layout of your webpage or web app before writing code.<br/>**Component Driven Design**:
    - **Modular building blocks** that make up interfaces.
    - Held together by the **layout** of the page.
@@ -194,7 +197,7 @@
      abstracts/
      vendors/</code></pre>
 
-### What is Sass?
+###  13. <a name='WhatisSass'></a>What is Sass?
 - Sass is a CSS preprocessors; an extension of CSS that adds power and elegance to the basic language.
 - Sass source code gets compiled into CSS code.
 - Features:
@@ -207,6 +210,24 @@
   - **Extends** to make different selectors inherit declarations that are common to all of them.
   - **Control directives** for writing complex code using conditionals and loops.
 
-### Sass syntax vs SCSS syntax
+###  14. <a name='SasssyntaxvsSCSSsyntax'></a>Sass syntax vs SCSS syntax
 - Sass syntax uses indentation instead of curly braces.
 - SCSS syntax is closer to CSS; uses curly braces.
+
+###  15. <a name='Basicresponsivedesignprinciples'></a>Basic responsive design principles
+1. **Fluid grids and layouts**<br>To allow content to easily adapt to the current viewport width used to browse the website. Uses `%` rather than `px` for all layout-related lengths.
+
+1. **Flexible/responsive images**<br>Images behave differently than text content, and so we need to ensure that they also adapt nicely to the current viewport.
+
+1. **Media queries**<br>To change styles on certain viewport widths (breakpoints), allowing us to create different versions of our website for different widths.
+
+###  16. <a name='Layouttypes'></a>Layout types
+- Float layouts
+- Flexbox
+- CSS grid
+
+###  17. <a name='BuildingaCustomGridwithFloats'></a>Building a Custom Grid with Floats
+- Architecting and building a simple grid system.
+- Using the attribute selector.
+- Using the `:not` pseudo-class.
+- Using `cacl()` instead Sass operations in order allows us to perform operations on different units.
