@@ -19,6 +19,7 @@
 16. [Layout types](#Layouttypes)
 17. [Building a Custom Grid with Floats](#BuildingaCustomGridwithFloats)
 18. [Building the About Section](#BuildingtheAboutSection)
+19. [Building the Features Section](#BuildingtheFeaturesSection)
 
 ---
 
@@ -231,3 +232,8 @@
 - [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)ing multiple properties simultaneously.
 - Using the [`outline-offset`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset) property together with [`outline`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline).
 - Styling elements that are NOT hovered while others are.
+
+### 19. <a name='BuildingtheFeaturesSection'></a>Building the Features Section
+- Using an icon font ([linea.io](https://linea.io/)).
+- Creating the "skewed section" with a `skew()` `transform`ation.
+- Using the direct child selector `>`.
