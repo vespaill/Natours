@@ -2,22 +2,23 @@
 
 ## Table of Contents
 1. [Building a header](#Buildingaheader)
-1. [CSS animations](#CSSanimations)
-1. [Building a complex animated button](#Buildingacomplexanimatedbutton)
-1. [The 3 pillars to writing good HTML and CSS](#The3pillarstowritinggoodHTMLandCSS)
-1. [The Cascade and Specificity](#TheCascadeandSpecificity)
-1. [How CSS values are processed](#HowCSSvaluesareprocessed)
-1. [Inheritance](#Inheritance)
-1. [CSS Units](#CSSUnits)
-1. [How CSS renders a website](#HowCSSrendersawebsite)
-1. [Box Types](#BoxTypes)
-1. [Positioning schemes](#Positioningschemes)
-1. [The Think-Build-Architect Mindset](#TheThink-Build-ArchitectMindset)
-1. [What is Sass?](#WhatisSass)
-1. [Sass syntax vs SCSS syntax](#SasssyntaxvsSCSSsyntax)
-1. [Basic responsive design principles](#Basicresponsivedesignprinciples)
-1. [Layout types](#Layouttypes)
-1. [Building a Custom Grid with Floats](#BuildingaCustomGridwithFloats)
+2. [CSS animations](#CSSanimations)
+3. [Building a complex animated button](#Buildingacomplexanimatedbutton)
+4. [The 3 pillars to writing good HTML and CSS](#The3pillarstowritinggoodHTMLandCSS)
+5. [The Cascade and Specificity](#TheCascadeandSpecificity)
+6. [How CSS values are processed](#HowCSSvaluesareprocessed)
+7. [Inheritance](#Inheritance)
+8. [CSS Units](#CSSUnits)
+9. [How CSS renders a website](#HowCSSrendersawebsite)
+10. [Box Types](#BoxTypes)
+11. [Positioning schemes](#Positioningschemes)
+12. [The Think-Build-Architect Mindset](#TheThink-Build-ArchitectMindset)
+13. [What is Sass?](#WhatisSass)
+14. [Sass syntax vs SCSS syntax](#SasssyntaxvsSCSSsyntax)
+15. [Basic responsive design principles](#Basicresponsivedesignprinciples)
+16. [Layout types](#Layouttypes)
+17. [Building a Custom Grid with Floats](#BuildingaCustomGridwithFloats)
+18. [Building the About Section](#BuildingtheAboutSection)
 
 ---
 
@@ -62,31 +63,19 @@
 ###  5. <a name='TheCascadeandSpecificity'></a>The Cascade and Specificity
 - **Cascade**: the process of combining different stylesheets and resolving conflicts between different CSS rules and declarations when more than one rule applies to a certain element.
 - To resolve conflicts between conflicting declarations, the Cascade first looks at the **importance (weight)**, then at the **selector specificity**, and lastly at the **source order**.
-
-<br>
-
 - **Importance**
   - User `!important` declarations
   - Author `!important` declarations
   - Author declarations
   - User declarations
   - Default browser declarations
-
-<br>
-
 - **Specificity**
   - Inline styles
   - IDs
   - Classes, pseudo-classes, attribute
   - Elements, pseudo-elements
-
-<br>
-
 - **Source order**
   - The last declaration in the code will override all other and will be applied.
-
----
-
 - CSS declarations marked with `!important` have the highest priority.
 - But, only use `!important` as a last resource. It's better to use correct specificities – **more maintainable code**!
 - Inline styles will always have priority over styles in external stylesheets.
@@ -117,7 +106,7 @@
 
 ###  8. <a name='CSSUnits'></a>[CSS Units](https://www.w3schools.com/cssref/css_units.asp)
 - Absolute Lengths vs Relative Lengths.
-- The `em` and `rem` units are practical in creating perfectly scalable layout.
+- The `em` and `rem` units are practical in creating perfectly scalable layouts.
 
 ###  9. <a name='HowCSSrendersawebsite'></a>How CSS renders a website
 - **The Visual Formatting Model**: an algorithm that calculates boxes and determines the layout of these boxes, for each element in the render tree, in order to determine the final layout of the page. It takes into account:
@@ -163,7 +152,7 @@
   - Default positioning scheme
   - **NOT** floated
   - **NOT** absolutely positioned
-  - Elements laid out according to their source order
+  - Elements laid out according to their source order<br>
     `position: relative`<br><br>
 - **Floats**
   - **Element is removed from the normal flow.**
@@ -234,3 +223,11 @@
 - Using the [attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 - Using the [`:not`](https://developer.mozilla.org/en-US/docs/Web/CSS/:not) pseudo-class.
 - Using [`calc()`](https://developer.mozilla.org/en-US/docs/Web/CSS/calc) instead Sass operations to perform operations on different units.
+
+### 18. <a name='BuildingtheAboutSection'></a>Building the About Section
+- Thinking about components.
+- Using utility classes.
+- Using the [`background-clip`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip) property.
+- [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)ing multiple properties simultaneously.
+- Using the [`outline-offset`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset) property together with [`outline`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline).
+- Styling elements that are NOT hovered while others are.
