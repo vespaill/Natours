@@ -20,6 +20,8 @@
 17. [Building a Custom Grid with Floats](#BuildingaCustomGridwithFloats)
 18. [Building the About Section](#BuildingtheAboutSection)
 19. [Building the Features Section](#BuildingtheFeaturesSection)
+20. [Building the Tours Section](#BuildingtheToursSection)
+
 
 ---
 
@@ -237,3 +239,10 @@
 - Using an icon font ([linea.io](https://linea.io/)).
 - Creating the "skewed section" with a `skew()` `transform`ation.
 - Using the direct child selector `>`.
+
+### 20. <a name='BuildingtheToursSection'></a>Building the Tours Section
+- Building roating cards.
+- Using `perspective` in CSS.
+- Using the `backface-visibility` property.
+- Using background blend modes.
+- Using `box-decoration-break`.
