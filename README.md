@@ -242,7 +242,7 @@
 
 ### 20. <a name='BuildingtheToursSection'></a>Building the Tours Section
 - Building roating cards.
-- Using `perspective` in CSS.
-- Using the `backface-visibility` property.
+- Using [`perspective`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective) in CSS.
+- Using the [`backface-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) property.
 - Using background blend modes.
-- Using `box-decoration-break`.
+- Using [`box-decoration-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break).
