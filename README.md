@@ -18,11 +18,11 @@
 15. [Basic responsive design principles](#Basicresponsivedesignprinciples)
 16. [Layout types](#Layouttypes)
 17. [Building a Custom Grid with Floats](#BuildingaCustomGridwithFloats)
-18. [Building a About Section](#BuildingtheAboutSection)
-19. [Building a Features Section](#BuildingtheFeaturesSection)
-20. [Building a Tours Section](#BuildingtheToursSection)
-21. [Building a Stories Section](#BuildingtheStoriesSection)
-22. [Building a Booking Section](#BuildingtheBookingSection)
+18. [Building an About Section](#BuildinganAboutSection)
+19. [Building a Features Section](#BuildingaFeaturesSection)
+20. [Building a Tours Section](#BuildingaToursSection)
+21. [Building a Stories Section](#BuildingaStoriesSection)
+22. [Building a Booking Section](#BuildingaBookingSection)
 
 ---
 
@@ -230,7 +230,7 @@
 - Using the [`:not`](https://developer.mozilla.org/en-US/docs/Web/CSS/:not) pseudo-class.
 - Using [`calc()`](https://developer.mozilla.org/en-US/docs/Web/CSS/calc) instead Sass operations to perform operations on different units.
 
-### 18. <a name='BuildingtheAboutSection'></a>Building the About Section
+### 18. <a name='BuildinganAboutSection'></a>Building an About Section
 - Thinking about components.
 - Using utility classes.
 - Using the [`background-clip`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip) property.
@@ -238,26 +238,26 @@
 - Using the [`outline-offset`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset) property together with [`outline`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline).
 - Styling elements that are NOT hovered while others are.
 
-### 19. <a name='BuildingtheFeaturesSection'></a>Building the Features Section
+### 19. <a name='BuildingaFeaturesSection'></a>Building a Features Section
 - Using an icon font ([linea.io](https://linea.io/)).
 - Creating the "skewed section" with a [`skew()`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew) [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function)ation.
 - Using the direct child selector [`>`](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator).
 
-### 20. <a name='BuildingtheToursSection'></a>Building the Tours Section
+### 20. <a name='BuildingaToursSection'></a>Building a Tours Section
 - Building roating cards.
 - Using [`perspective`](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective) in CSS.
 - Using the [`backface-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) property.
 - Using background blend modes.
 - Using [`box-decoration-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break).
 
-### 21. <a name='BuildingtheStoriesSection'></a>Building the Stories Section
+### 21. <a name='BuildingaStoriesSection'></a>Building a Stories Section
 - Making text float around shapes with [`shape-outside`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside) and [`float`](https://developer.mozilla.org/en-US/docs/Web/CSS/float).
 - Applying a [`filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) to images.
 - Creating a background video covering an entire section.
 - Using the [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) HTML element.
 - Using the [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) property.
 
-### 22. <a name='BuildingtheBookingSection'></a>Building the Booking Section
+### 22. <a name='BuildingaBookingSection'></a>Building a Booking Section
 - Implementing "solid-color gradients."
 - Working with the [general sibling selector](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator) (`~`) and the [adjacent sibling selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator) (`+`).
 - Using the [`::placeholder`](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder) pseudo-element.
