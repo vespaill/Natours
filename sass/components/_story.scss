@@ -3,7 +3,7 @@
   margin: 0 auto;
   box-shadow: 0 3rem 6rem $color-box-shadow;
   background-color: rgba($color-white, .6);
-  border-radius: 3px;
+  border-radius: $border-radius-size;
   padding: 6rem 9rem 6rem 12rem;
   font-size: $default-font-size;
   clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0 100%);

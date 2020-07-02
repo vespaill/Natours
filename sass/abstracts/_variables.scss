@@ -2,23 +2,26 @@
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
-
 $color-secondary-light: #ffb900;
 $color-secondary-dark: #ff7730;
-
 $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
-
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 $color-gray-dark: #777;
-
+$color-gray-dark-2: #999;
 $color-white: #fff;
 $color-black: #000;
+// Shadow
 $color-box-shadow: rgba($color-black, .15);
+$color-box-shadow-dark: rgba($color-black, .5);
 
 // Font
 $default-font-size: 1.6rem;
+
+// Border
+$border-radius-size: 0.5rem;
+$border-radius-size-big: 10rem;
 
 /* Grid */
 $grid-width: 114rem;

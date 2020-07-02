@@ -22,7 +22,7 @@
 19. [Building the Features Section](#BuildingtheFeaturesSection)
 20. [Building the Tours Section](#BuildingtheToursSection)
 21. [Building the Stories Section](#BuildingtheStoriesSection)
-
+22. [BuildingtheBookingSection](#BuildingtheBookingSection)
 
 ---
 
@@ -256,3 +256,10 @@
 - Creating a background video covering an entire section.
 - Using the [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) HTML element.
 - Using the [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) property.
+
+### 22. <a name='BuildingtheBookingSection'></a>Building the Booking Section
+- Implementing "solid-color gradients."
+- Working with the [general sibling selector](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator) (`~`) and the [adjacent sibling selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator) (`+`).
+- Using the [`::placeholder`](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder) pseudo-element.
+- Using [`:focus`](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus), [`:invalid`](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid), [`:placeholder-shown`](https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown), and [`:checked`](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked) pseudo-classes.
+- Techniques for building custom radio buttons.
