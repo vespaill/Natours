@@ -21,6 +21,7 @@
 18. [Building the About Section](#BuildingtheAboutSection)
 19. [Building the Features Section](#BuildingtheFeaturesSection)
 20. [Building the Tours Section](#BuildingtheToursSection)
+21. [Building the Stories Section](#BuildingtheStoriesSection)
 
 
 ---
@@ -221,6 +222,8 @@
 - Flexbox
 - CSS grid
 
+---
+
 ###  17. <a name='BuildingaCustomGridwithFloats'></a>Building a Custom Grid with Floats
 - Architecting and building a simple grid system.
 - Using the [attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
@@ -237,8 +240,8 @@
 
 ### 19. <a name='BuildingtheFeaturesSection'></a>Building the Features Section
 - Using an icon font ([linea.io](https://linea.io/)).
-- Creating the "skewed section" with a `skew()` `transform`ation.
-- Using the direct child selector `>`.
+- Creating the "skewed section" with a [`skew()`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew) [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function)ation.
+- Using the direct child selector [`>`](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator).
 
 ### 20. <a name='BuildingtheToursSection'></a>Building the Tours Section
 - Building roating cards.
@@ -246,3 +249,10 @@
 - Using the [`backface-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) property.
 - Using background blend modes.
 - Using [`box-decoration-break`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break).
+
+### 21. <a name='BuildingtheStoriesSection'></a>Building the Stories Section
+- Making text float around shapes with [`shape-outside`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside) and [`float`](https://developer.mozilla.org/en-US/docs/Web/CSS/float).
+- Applying a [`filter`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) to images.
+- Creating a background video covering an entire section.
+- Using the [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) HTML element.
+- Using the [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) property.

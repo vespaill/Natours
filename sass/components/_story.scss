@@ -1,0 +1,54 @@
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem $color-box-shadow;
+  background-color: rgba($color-white, .6);
+  border-radius: 3px;
+  padding: 6rem 9rem 6rem 12rem;
+  font-size: $default-font-size;
+  clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0 100%);
+
+  &__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    /* Use the shape-outside property to define how outside content should flow
+       around the element. To use the shape-outside property, element must be
+       floated and it must have a height and a width. */
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem);
+    position: relative;
+  }
+
+  &__img {
+    height: 100%;
+    transform: translateX(-4rem) scale(1.4);
+    transition: all 0.5s;
+  }
+
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+
+  &:hover &__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+    &:hover &__img {
+      filter: blur(5px) brightness(80%);
+      transform: translateX(-4rem) scale(1);
+    }
+}
