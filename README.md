@@ -18,11 +18,11 @@
 15. [Basic responsive design principles](#Basicresponsivedesignprinciples)
 16. [Layout types](#Layouttypes)
 17. [Building a Custom Grid with Floats](#BuildingaCustomGridwithFloats)
-18. [Building the About Section](#BuildingtheAboutSection)
-19. [Building the Features Section](#BuildingtheFeaturesSection)
-20. [Building the Tours Section](#BuildingtheToursSection)
-21. [Building the Stories Section](#BuildingtheStoriesSection)
-22. [BuildingtheBookingSection](#BuildingtheBookingSection)
+18. [Building a About Section](#BuildingtheAboutSection)
+19. [Building a Features Section](#BuildingtheFeaturesSection)
+20. [Building a Tours Section](#BuildingtheToursSection)
+21. [Building a Stories Section](#BuildingtheStoriesSection)
+22. [Building a Booking Section](#BuildingtheBookingSection)
 
 ---
 
