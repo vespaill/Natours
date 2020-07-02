@@ -23,6 +23,7 @@
 20. [Building a Tours Section](#BuildingaToursSection)
 21. [Building a Stories Section](#BuildingaStoriesSection)
 22. [Building a Booking Section](#BuildingaBookingSection)
+23. [Building a Beautiful Navigation](#BuildingaBeautifulNavigation)
 
 ---
 
@@ -263,3 +264,10 @@
 - Using the [`::placeholder`](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder) pseudo-element.
 - Using [`:focus`](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus), [`:invalid`](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid), [`:placeholder-shown`](https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown), and [`:checked`](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked) pseudo-classes.
 - Techniques for building custom radio buttons.
+
+### 23. <a name='BuildingaBeautifulNavigation'></a> Building a Beautiful Navigation
+- The "checkbox hack."
+- Custom animation timing functions that use cubic bezier curves.
+- Animating "solid-color gradients."
+- Using [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin).
+- Creating an amaizingly creative effect!

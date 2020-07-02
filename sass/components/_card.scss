@@ -147,7 +147,7 @@
         padding: 1rem;
 
         &:not(:last-child) {
-          border-bottom: 1px solid $color-grey-light-2;
+          border-bottom: 1px solid $color-gray-light-2;
         }
       }
     }
@@ -156,10 +156,7 @@
   // Back side styling
   // Call to action
   &__cta {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include centerHorizontalVertical;
     width: 90%;
     text-align: center;
   }
