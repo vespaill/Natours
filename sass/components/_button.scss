@@ -83,13 +83,13 @@
     &:hover {
       background-color: $color-primary;
       color: $color-white;
-      box-shadow: 0 1rem 2rem $color-box-shadow;
+      box-shadow: 0 1rem 2rem $color-box-shadow-light;
 
       transform: translateY(-2px);
     }
 
     &:active {
-      box-shadow: 0 .5rem 1rem $color-box-shadow;
+      box-shadow: 0 .5rem 1rem $color-box-shadow-light;
       transform: translateY(0);
     }
   }

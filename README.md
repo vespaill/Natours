@@ -24,6 +24,7 @@
 21. [Building a Stories Section](#BuildingaStoriesSection)
 22. [Building a Booking Section](#BuildingaBookingSection)
 23. [Building a Beautiful Navigation](#BuildingaBeautifulNavigation)
+24. [Building a Pure CSS Popup](#BuildingaPureCSSPopup)
 
 ---
 
@@ -271,3 +272,9 @@
 - Animating "solid-color gradients."
 - Using [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin).
 - Creating an amaizingly creative effect!
+
+### 24. <a name='BuildingaPureCSSPopup'></a> Building a Pure CSS Popup
+- Using the [`:target`](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) pseudo-class to select elements based on the current URL's fragment.
+- Creating boxes with equal height using `display: table-cell`.
+- Creating CSS text columns.
+- Using [`hyphens`](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens) to automatically hyphenate words.

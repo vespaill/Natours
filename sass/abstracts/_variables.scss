@@ -15,8 +15,9 @@ $color-white: #fff;
 $color-black: #000;
 
 // Shadow
-$color-box-shadow: rgba($color-black, .15);
+$color-box-shadow-light: rgba($color-black, .15);
 $color-box-shadow-dark: rgba($color-black, .5);
+$color-box-shadow-darkest: rgba($color-black, .9);
 
 // Font
 $default-font-size: 1.6rem;
